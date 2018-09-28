@@ -1,0 +1,39 @@
+h1{
+  color: red;
+}
+p{
+  color: aquamarine;
+  font-family: "Arial Black";
+}
+#thachpham{
+  color: blue;
+  font-family: "Blackadder ITC";
+}
+.thanhpham1{
+  font-size: 300%;
+}
+#danhsach li{
+  color: blueviolet;
+  font-size: 200%;
+  font-family: Bahnschrift;
+}
+#thutu li{
+  color: crimson;
+}
+html{
+  background-color: antiquewhite;
+}
+#px{
+  font-size: 50px;
+  font-family: "Baskerville Old Face";
+}
+#px1{
+  width: 300px;
+  height: 250px;
+  background-color: red;
+}
+#donvituongdoiphamtram{
+  width: 50%;
+  height: 75%;
+  background-color: blue;
+}

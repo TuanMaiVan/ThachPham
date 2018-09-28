@@ -1,0 +1,28 @@
+Body{
+    width: 1366px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+#header{
+    background-color: #3333;
+    padding: 10px 25px;
+}
+#content{
+    background-color: #555;
+    width: 700px;
+    float: left;
+    padding: 1em;
+}
+#sidebar{
+    background: #444;
+    width: 600px;
+    float: right;
+    padding: 1em;
+}
+#Footer{
+    clear: both;
+    background-color: #666666;
+    padding: 1em;
+}
