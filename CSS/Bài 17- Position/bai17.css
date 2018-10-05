@@ -1,0 +1,19 @@
+.relative{
+    background-color: red;
+    width: 500px;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+p{
+    position: relative;
+    z-index: 2;
+}
+img{
+    width: 250px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    z-index: 1;
+}
