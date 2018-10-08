@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+        #menu ul{
+            background: #8ad385;
+            width: 250px;
+            padding: 0;
+            list-style-type: none;
+        }
+        #menu ul li{
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #e8e8e8;
+            padding: 0em 1em;
+            position: relative;
+
+        }
+        #menu ul li a{
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            display: block;
+        }
+        #menu ul li:hover{
+            background: #2dd32a;
+        }
+        #menu .sub-menu{
+            position: absolute;
+            left: 250px;
+            top: 0;
+            display: none;
+        }
+
+        #menu ul li:hover .sub-menu{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="menu">
+<ul>
+    <li><a href="#">Item 1</a>
+        <ul class="sub-menu">
+            <li><a href="#">Item 1.a </a> </li>
+            <li><a href="#">Item 1.b </a> </li>
+            <li><a href="#">Item 1.c </a> </li>
+            <li><a href="#">Item 1.d </a> </li>
+        </ul>
+    </li>
+    <li><a href="#">Item 2</a> </li>
+    <li><a href="#">Item 3</a> </li>
+    <li><a href="#">Item 4</a> </li>
+    <li><a href="#">Item 5</a> </li>
+</ul>
+</div>
+</body>
+</html>
