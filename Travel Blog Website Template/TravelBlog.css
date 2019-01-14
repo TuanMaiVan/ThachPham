@@ -1,0 +1,90 @@
+.header{
+    box-sizing: border-box;
+    height: 170px;
+    padding: 50px 0;
+    border-bottom: 1px solid #f3f2f1;
+}
+.header nav.main-menu ul{
+    list-style: none;
+}
+.header nav.main-menu li{
+    float: left;
+    padding: 5px;
+}
+.header nav.main-menu a{
+    display: inline-block;
+    padding: 10px 26px;
+    color: #767676;
+    text-decoration: none;
+}
+.header nav.main-menu ul li a:hover{
+    color: black;
+}
+.header nav.main-menu i{
+    float: right;
+    padding-left: 50px;
+}
+
+.content .logo p{
+    text-align: center;
+}
+.content .logo strong{
+    font-size: 25px;
+}
+.content .logo p b {
+    border-bottom: 1px solid #767676;
+    border-top: 1px solid #767676;
+    padding: 5px;
+}
+.content .logo2 {
+    background-image: url("Anh/head.png");
+    height: 921px;
+}
+/*conten*/
+.content .logo2 p{
+    padding-top: 350px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+}
+.content .logo2 p big{
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+
+}
+.content .logo2 h1{
+    color: #FFFFFF;
+    font-size: 100px;
+    padding-left: 500px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Arial Black";
+}
+.content nav.menu ul{
+    list-style: none;
+}
+.content nav.menu li{
+    float: left;
+}
+.content nav.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: #777777;
+}
+.content nav.menu ul li a:hover {
+    color: #222222;
+}
+.content .menu1{
+    float: right;
+}
+.content .menu1 a{
+    text-decoration: none;
+    color: #777777;
+    padding-right: 245px;
+}
+.content .menu1 a:hover{
+    color: #222222;
+}
+.content .menutong{
+    padding-top: 50px;
+}
