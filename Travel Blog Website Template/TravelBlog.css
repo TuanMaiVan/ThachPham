@@ -25,6 +25,7 @@
     padding-left: 50px;
 }
 
+
 .content .logo p{
     text-align: center;
 }
@@ -38,7 +39,9 @@
 }
 .content .logo2 {
     background-image: url("Anh/head.png");
+    background-size: cover;
     height: 921px;
+
 }
 /*conten*/
 .content .logo2 p{
@@ -54,11 +57,14 @@
 }
 .content .logo2 h1{
     color: #FFFFFF;
-    font-size: 100px;
-    padding-left: 500px;
+    font-size: 80px;
+    padding-left: 250px;
     display: table-cell;
     vertical-align: middle;
     font-family: "Arial Black";
+}
+.content nav.menu{
+    padding-left: 20px;
 }
 .content nav.menu ul{
     list-style: none;
@@ -80,11 +86,99 @@
 .content .menu1 a{
     text-decoration: none;
     color: #777777;
-    padding-right: 245px;
+    padding-right: 121px;
 }
 .content .menu1 a:hover{
     color: #222222;
 }
 .content .menutong{
     padding-top: 50px;
+
+}
+/*POST*/
+.post{
+    padding-top: 90px;
+    padding-left: 50px;
+    margin: 10px 10px
+}
+
+.post .banner1 p em{
+    color: #d3c4a6;
+    border-bottom: 1px solid #d3c4a6;
+    border-top: 1px solid #d3c4a6;
+    font-size: 24px;
+}
+
+.post .banner1 img{
+    border: 1px solid #f3f2f1;
+    width: 750px;
+    padding-bottom: 50px;
+
+}
+.post .banner1 b{
+    font-size: 36px;
+}
+.post .banner1 small{
+    font-size: 16px;
+}
+.post .banner1 a{
+    background: #;
+    color: #222222;
+    display: inline-block;
+    width: auto;
+    padding: 10px 30px;
+    border-radius: 32px;
+    border: 1px solid #e0e0e0;
+}
+/*conten2*/
+.post .conten2 {
+    padding-top: 50px;
+    background-color: #fafafa;
+}
+.post .sidebar {
+    margin-left: 50px;
+    width: 200px;
+    height: 319px;
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+.post .sidebar img{
+    width: 150px;
+    padding-left: 50px;
+    padding-bottom: 23px;
+}
+.post .sidebar h6{
+    text-align: center;
+}
+.post .sidebar p{
+    text-align: center;
+}
+.post .sidebar2{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 319px;
+    background-color: #ffffff;
+    padding-top: 23px;
+
+}
+.post .sidebar2 h6{
+    padding-left: 30px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+}
+.post nav.main-menu ul {
+    list-style: none;
+}
+.post nav.main-menu li{
+    padding-top: 10px;
+}
+.post nav.main-menu a{
+    display: inline-block;
+    color: #767676;
+    text-decoration: none;
+    font-size: 12px;
+}
+.post nav.main-menu a:hover {
+    color: #000000;
 }
